@@ -1,4 +1,4 @@
-import { Navbar, Main, Product, Footer } from "../components";
+import { Navbar, Product, MyFooter } from "../components";
 import About from "./About";
 
 function Home() {
@@ -8,7 +8,7 @@ function Home() {
       {/* <Main /> */}
       <Product />
       <About />
-      <Footer />
+      <MyFooter />
     </>
   )
 }

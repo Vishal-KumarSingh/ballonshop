@@ -1,12 +1,9 @@
-
-'use client';
-
 import { Footer } from 'flowbite-react';
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
 
-function Component() {
+const MyFooter = () =>  {
   return (
-    <Footer bgDark>
+    <Footer>
       <div className="w-full">
         <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
           <div>
@@ -56,6 +53,8 @@ function Component() {
           </div>
         </div>
       </div>
-    </Footer>
-  );
+      </Footer>
+  );  
 }
+
+export default MyFooter;

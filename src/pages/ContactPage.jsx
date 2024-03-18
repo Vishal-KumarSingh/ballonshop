@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer, Navbar } from "../components";
+import { MyFooter, Navbar } from "../components";
 const ContactPage = () => {
   return (
     <>
@@ -96,7 +96,7 @@ info@haplun.in
           </div>
         </div>
       </div>
-      <Footer />
+      <MyFooter />
     </>
   );
 };
