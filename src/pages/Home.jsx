@@ -1,6 +1,6 @@
 import { Navbar, Product, MyFooter } from "../components";
 import About from "./About";
-
+import './App.css';
 function Home() {
   return (
     <>
