@@ -31,9 +31,9 @@ const Product = () => {
       const response2 = await fetch(
         `https://vksrajputt.me/ballonapi/public/api/category/${data.category}`
       );
-      const data2 = await response2.json();
-      setSimilarProducts(data2);
-      setLoading2(false);
+      //const data2 = await response2.json();
+     // setSimilarProducts(data2);
+     // setLoading2(false);
     };
     getProduct();
   }, [id]);

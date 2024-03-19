@@ -7,7 +7,7 @@ import "react-loading-skeleton/dist/skeleton.css";
 
 import { Link } from "react-router-dom";
 
-const Products = () => {  
+const Services = () => {  
   const [data, setData] = useState([]);
   const [filter, setFilter] = useState(data);
   const [loading, setLoading] = useState(false);
@@ -24,8 +24,43 @@ const Products = () => {
       setLoading(true);
       const response = await fetch("https://vksrajputt.me/ballonapi/public/api/products");
       if (componentMounted) {
-        setData(await response.clone().json());
-        setFilter(await response.json());
+
+        const services = [
+          {
+              id: 1,
+              name: "Birthday Decoration",
+              description: "shark style ballon",
+              price: "200.00",
+              category_id: "1",
+              image: "https:\/\/haplun.in\/uploads\/product_images\/large\/1698407941_5388722267.webp",
+          },
+          {
+            id: 2,
+            name: "Wedding Decoration",
+            description: "shark style ballon",
+            price: "200.00",
+            category_id: "1",
+            image: "https:\/\/haplun.in\/uploads\/product_images\/large\/1698407941_5388722267.webp",
+        },
+        {
+          id: 2,
+          name: "Anniversary Decoration",
+          description: "shark style ballon",
+          price: "200.00",
+          category_id: "1",
+          image: "https:\/\/haplun.in\/uploads\/product_images\/large\/1698407941_5388722267.webp",
+      },
+      {
+        id: 2,
+        name: "Decoration",
+        description: "shark style ballon",
+        price: "200.00",
+        category_id: "1",
+        image: "https:\/\/haplun.in\/uploads\/product_images\/large\/1698407941_5388722267.webp",
+    },
+      ]
+        setData(services);
+        setFilter(services);
         setLoading(false);
       }
 
@@ -69,7 +104,7 @@ const Products = () => {
     const updatedList = data.filter((item) => item.category === cat);
     setFilter(updatedList);
   }
-  const ShowProducts = () => {
+  const ShowServices = () => {
     return (
       <>
         <div className="buttons text-center py-2">
@@ -97,10 +132,10 @@ const Products = () => {
                 />
                 <div className="card-body">
                   <h5 className="card-title">
-                    {product.name.substring(0, 12)}...
+                    {product.name.substring(0,30)}
                   </h5>
                   <p className="card-text">
-                    {product.description.substring(0, 90)}...
+                    {product.description}
                   </p>
                 </div>
                 <ul className="list-group list-group-flush">
@@ -129,54 +164,16 @@ const Products = () => {
       <div className="container my-3 py-3">
         <div className="row">
           <div className="col-12">
-            <h4 className="display-8 text-center">KIDS BIRTHDAY DECORATION</h4>
+            <h4 className="display-8 text-center">Services </h4>
             <hr />
           </div>
         </div>
         <div className="row justify-content-center">
-          {loading ? <Loading /> : <ShowProducts />}
-        </div>
-      </div>
-
-      <div className="container my-3 py-3">
-        <div className="row">
-          <div className="col-12">
-            <h4 className="display-8 text-center">BIRTHDAY DECORATION</h4>
-            <hr />
-          </div>
-        </div>
-        <div className="row justify-content-center">
-          {loading ? <Loading /> : <ShowProducts />}
-        </div>
-      </div>
-
-
-      <div className="container my-3 py-3">
-        <div className="row">
-          <div className="col-12">
-            <h4 className="display-8 text-center">PREMIUM DECORATION</h4>
-            <hr />
-          </div>
-        </div>
-        <div className="row justify-content-center">
-          {loading ? <Loading /> : <ShowProducts />}
-        </div>
-      </div>
-
-
-      <div className="container my-3 py-3">
-        <div className="row">
-          <div className="col-12">
-            <h4 className="display-8 text-center">LOVE THEME DECORATION</h4>
-            <hr />
-          </div>
-        </div>
-        <div className="row justify-content-center">
-          {loading ? <Loading /> : <ShowProducts />}
+          {loading ? <Loading /> : <ShowServices />}
         </div>
       </div>
     </>
   );
 };
 
-export default Products;
+export default Services;

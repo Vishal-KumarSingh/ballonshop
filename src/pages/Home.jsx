@@ -1,4 +1,4 @@
-import { Navbar, Product, MyFooter } from "../components";
+import { Navbar, Product, MyFooter , Services } from "../components";
 import About from "./About";
 import './App.css';
 function Home() {
@@ -6,8 +6,8 @@ function Home() {
     <>
       <Navbar />
       {/* <Main /> */}
-      <Product />
-      <About />
+      <Services />
+      {/* <About /> */}
       <MyFooter />
     </>
   )
