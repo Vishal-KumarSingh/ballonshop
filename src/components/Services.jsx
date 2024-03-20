@@ -144,12 +144,10 @@ const Services = () => {
                     <li className="list-group-item">Vestibulum at eros</li> */}
                 </ul>
                 <div className="card-body">
-                  <Link to={"/product/" + product.id} className="btn btn-dark m-1">
-                    View
+                  <Link to={"/product/" + product.id} className="btn btn-danger m-1">
+                    Book Now
                   </Link>
-                  <button className="btn btn-dark m-1" onClick={() => addProduct(product)}>
-                    WhatsApp
-                  </button>
+                  
                 </div>
               </div>
             </div>
