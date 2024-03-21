@@ -34,17 +34,17 @@ const Themes = () => {
           {
             id: 2,
             name: "Krishna",
-            image: "./assets/themes/cocomelon.avif",
+            image: "./assets/themes/krishna.avif",
         },
         {
           id: 2,
-          name: "Butterflu",
-          image: "./assets/themes/cocomelon.avif",
+          name: "Butterfly",
+          image: "./assets/themes/butterfly.avif",
       },
       {
         id: 2,
         name: "Candy",
-        image: "./assets/themes/cocomelon.avif",
+        image: "./assets/themes/candyland.avif",
     },
     {
       id: 2,
@@ -59,7 +59,7 @@ const Themes = () => {
 {
   id: 2,
   name: "Frozen",
-  image: "./assets/themes/cocomelon.avif",
+  image: "./assets/themes/frozen.avif",
 },
 {
   id: 2,
@@ -69,12 +69,12 @@ const Themes = () => {
 {
   id: 2,
   name: "Barbie",
-  image: "./assets/themes/cocomelon.avif",
+  image: "./assets/themes/barbie.avif",
 },
 {
   id: 2,
   name: "Unicorn",
-  image: "./assets/themes/cocomelon.avif",
+  image: "./assets/themes/unicorn.avif",
 },
 {
   id: 2,
@@ -89,27 +89,27 @@ const Themes = () => {
 {
   id: 2,
   name: "Marvel",
-  image: "./assets/themes/cocomelon.avif",
+  image: "./assets/themes/marvel.avif",
 },
 {
   id: 2,
   name: "Princess",
-  image: "./assets/themes/cocomelon.avif",
+  image: "./assets/themes/princess.avif",
 },
 {
   id: 2,
   name: "Astronaut",
-  image: "./assets/themes/cocomelon.avif",
+  image: "./assets/themes/astronaut.avif",
 },
 {
   id: 2,
   name: "Mickey Mouse",
-  image: "./assets/themes/cocomelon.avif",
+  image: "./assets/themes/mickymouse.avif",
 },
 {
   id: 2,
   name: "Boss Baby",
-  image: "./assets/themes/cocomelon.avif",
+  image: "./assets/themes/bossbaby.avif",
 },
 {
   id: 2,
@@ -124,7 +124,7 @@ const Themes = () => {
 {
   id: 2,
   name: "Car theme",
-  image: "./assets/themes/cocomelon.avif",
+  image: "./assets/themes/car.avif",
 },
 {
   id: 2,
@@ -144,12 +144,12 @@ const Themes = () => {
 {
   id: 2,
   name: "Baby Shark",
-  image: "./assets/themes/cocomelon.avif",
+  image: "./assets/themes/babyshark.avif",
 },
 {
   id: 2,
   name: "Paw Petrol",
-  image: "./assets/themes/cocomelon.avif",
+  image: "./assets/themes/pawpetrol.avif",
 },
 {
   id: 2,
@@ -164,17 +164,17 @@ const Themes = () => {
 {
   id: 2,
   name: "Prince Theme",
-  image: "./assets/themes/cocomelon.avif",
+  image: "./assets/themes/prince.avif",
 },
 {
   id: 2,
   name: "Pokemon",
-  image: "./assets/themes/cocomelon.avif",
+  image: "./assets/themes/pokemon.avif",
 },
 {
   id: 2,
   name: "Minnie Mouse",
-  image: "./assets/themes/cocomelon.avif",
+  image: "./assets/themes/minniemouse.avif",
 },
 {
   id: 2,
@@ -184,7 +184,7 @@ const Themes = () => {
 {
   id: 2,
   name: "Pac man",
-  image: "./assets/themes/cocomelon.avif",
+  image: "./assets/themes/pokemon.avif",
 },
 {
   id: 2,

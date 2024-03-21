@@ -50,15 +50,10 @@ const Services = () => {
           category_id: "1",
           image: "https:\/\/haplun.in\/uploads\/product_images\/large\/1698407941_5388722267.webp",
       },
-      {
-        id: 2,
-        name: "Decoration",
-        description: "shark style ballon",
-        price: "200.00",
-        category_id: "1",
-        image: "https:\/\/haplun.in\/uploads\/product_images\/large\/1698407941_5388722267.webp",
-    },
+     
       ]
+
+
         setData(services);
         setFilter(services);
         setLoading(false);
@@ -122,7 +117,7 @@ const Services = () => {
 
         {filter.map((product) => {
           return (
-            <div id={product.id} key={product.id} className="col-md-3 col-sm-6 col-xs-8 col-12 mb-4">
+            <div id={product.id} key={product.id} className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
               <div className="card text-center h-100" key={product.id}>
                 <img
                   className="card-img-top p-3"
